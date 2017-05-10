@@ -18,6 +18,7 @@ public class Sincronizacion extends javax.swing.JFrame {
      */
     public Sincronizacion() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

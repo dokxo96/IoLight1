@@ -41,6 +41,7 @@ public class ControlFocos2 extends javax.swing.JFrame implements ActionListener{
         p2.setLayout(new GridLayout(3,3));
         p3.setLayout(new GridLayout(3,3));
         jLabel2.setVisible(false);
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -79,8 +80,10 @@ public class ControlFocos2 extends javax.swing.JFrame implements ActionListener{
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(100, 181, 246));
+        jPanel1.setBackground(new java.awt.Color(114, 47, 31));
         jPanel1.setPreferredSize(new java.awt.Dimension(1488, 1123));
+
+        jPanel2.setBackground(new java.awt.Color(187, 142, 95));
 
         jLabel6.setFont(new java.awt.Font("Yu Gothic", 1, 36)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -117,6 +120,8 @@ public class ControlFocos2 extends javax.swing.JFrame implements ActionListener{
         );
 
         jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+
+        jPanel6.setBackground(new java.awt.Color(187, 142, 95));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -220,6 +225,8 @@ public class ControlFocos2 extends javax.swing.JFrame implements ActionListener{
         );
 
         jTabbedPane1.addTab("activacion", jPanel6);
+
+        jPanel7.setBackground(new java.awt.Color(187, 142, 95));
 
         jPanelPlantas.setOpaque(false);
 
