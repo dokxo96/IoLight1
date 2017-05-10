@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  * @author LIZBETHMB
  */
 public class Sincronizacion extends javax.swing.JFrame {
-
+ ControlFocos2 c;
     /**
      * Creates new form Sincronizacion
      */
@@ -164,8 +164,10 @@ public class Sincronizacion extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
-        // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null,"hola");
+        c=new ControlFocos2();
+        this.dispose();
+        c.setVisible(true);
+        
     }//GEN-LAST:event_jLabel5MouseClicked
 
     /**
